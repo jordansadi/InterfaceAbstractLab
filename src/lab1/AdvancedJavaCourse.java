@@ -20,17 +20,17 @@ public class AdvancedJavaCourse extends Course {
     }
 
     /**
-     * This method returns the value of the prerequisites for an IntroJavaCourse instance
-     * @return String the prerequisites for the IntroJavaCourse
+     * This method returns the value of the prerequisites for an AdvancedJavaCourse instance
+     * @return String the prerequisites for the AdvancedJavaCourse
      */
     public String getPrerequisites() {
         return prerequisites;
     }
 
     /**
-     * This method attempts to set the value of the prerequisites for an IntroJavaCourse instance
+     * This method attempts to set the value of the prerequisites for an AdvancedJavaCourse instance
      * If the parameter is null or empty, an error message is displayed
-     * @param prerequisites String the intended prerequisite(s) for the IntroJavaCourse
+     * @param prerequisites String the intended prerequisite(s) for the AdvancedJavaCourse
      */
     public void setPrerequisites(String prerequisites) {
         if(prerequisites == null || prerequisites.length() == 0) {

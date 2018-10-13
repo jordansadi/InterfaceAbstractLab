@@ -12,6 +12,16 @@ public abstract class Course {
     private double credits;
 
     /**
+     * This constructor creates an instance of the Course class
+     * @param courseName String the intended courseName for the Course
+     * @param courseNumber String the intended courseNumber for the Course
+     */
+    public Course(String courseName, String courseNumber) {
+        setCourseName(courseName);
+        setCourseNumber(courseNumber);
+    }
+
+    /**
      * This method returns the value of the courseNumber for a Course
      * @return String the courseNumber for the Course
      */
@@ -75,15 +85,5 @@ public abstract class Course {
             System.exit(0);
         }
         this.courseName = courseName;
-    }
-
-    /**
-     * This constructor creates an instance of the Course class
-     * @param courseName String the intended courseName for the Course
-     * @param courseNumber String the intended courseNumber for the Course
-     */
-    public Course(String courseName, String courseNumber) {
-        setCourseName(courseName);
-        setCourseNumber(courseNumber);
     }
 }

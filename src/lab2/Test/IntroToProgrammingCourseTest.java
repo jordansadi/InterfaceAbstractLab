@@ -1,10 +1,10 @@
-package lab1.Test;
+package lab2.Test;
 
 import lab2.IntroToProgrammingCourse;
 import org.junit.*;
 
-public class CourseTest extends junit.framework.TestCase {
-    public CourseTest() {}
+public class IntroToProgrammingCourseTest extends junit.framework.TestCase {
+    public IntroToProgrammingCourseTest() {}
 
     private IntroToProgrammingCourse testITPC;
 

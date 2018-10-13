@@ -1,10 +1,3 @@
-Notes from lecture:
-Do JavaDoc and JUnit
-Pay attention to naming conventions
-Encapsulation
-Class diagram is suggested
-Abstractions; do/know responsibilities, interfaces, abstract classes/methods
-
 Objectives for Lab #1:
 ---------------------
    * Practice using abstraction by creating an Abstract super class and
@@ -19,7 +12,7 @@ Objectives for Lab #1:
      and which super class methods should be fully implemented, if any.
      (TIP: implement (concrete) methods that should not change and declare them 
       final; if a method has the potential for being overridden in the 
-      sub-clsss, declare that method abstract)
+      sub-class, declare that method abstract)
    * Can you think of any other ways to improve on this design?
 
 Instructions for Lab #1:
@@ -47,5 +40,3 @@ Instructions for Lab #1:
 
    Consider when this is advantageous and when it isn't. Provide a comment
    that explains your position.
-
-

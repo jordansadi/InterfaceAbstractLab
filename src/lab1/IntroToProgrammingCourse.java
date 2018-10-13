@@ -1,13 +1,16 @@
 package lab1;
 
 /**
- * Describe responsibilities here. NOTE: this class has NO PREREQUISITES!
- * Do not change this fact.
- *
- * @author      your name goes here
- * @version     1.00
+ * This class inherits from the Course abstract class and defines an IntroToProgrammingCourse
+ * @author Jordan Sadi
+ * @version 1.00
  */
 public class IntroToProgrammingCourse extends Course {
+    /**
+     * This constructor creates an instance of the IntroToProgrammingCourse class
+     * @param courseName String the name of the IntroToProgrammingCourse
+     * @param courseNumber String the course number for the IntroToProgrammingCourse
+     */
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         super(courseName, courseNumber);
     }

@@ -16,9 +16,11 @@ public class Main {
          */
 
         // Liskov substitution is not possible because an instance cannot be created of an interface
+        // that's not true...I was just doing it wrong
+        // only introProgramming can be declared as a Course, because the other courses need access to setPrerequisites
         AdvancedJavaCourse advancedJava = new AdvancedJavaCourse("Advanced Java", "152 135");
         IntroJavaCourse introJava = new IntroJavaCourse("Java Programming", "152 134");
-        IntroToProgrammingCourse introProgramming = new IntroToProgrammingCourse("Introduction to Programming",
+        Course introProgramming = new IntroToProgrammingCourse("Introduction to Programming",
                 "152 107");
 
         advancedJava.setCredits(4.0);
